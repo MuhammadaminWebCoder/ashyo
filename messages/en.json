@@ -1,0 +1,11 @@
+{
+    "HeaderTopNavList": {
+        "about-us": "About us",
+        "products": "Products",
+        "contacts": "Contact",
+        "tashkent": "Tashkent"
+    },
+    "HeaderCenterContent": {
+        "category": "Category"
+    }
+}
