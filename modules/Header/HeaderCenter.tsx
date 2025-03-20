@@ -10,8 +10,8 @@ const HeaderCenter = () => {
   return (
     <div className="containers">
       <Link className="flex items-center gap-[1px]" href={"/"}>
-        <Image className="w-[48px] scale-[1.5] h-[48px]" src={"/logo.svg"} alt="Logo" width={48} height={48} priority/>
-        <strong className="text-[36px] font-black text-[#134E9B] leading-[100%]">Ashyo</strong>
+        <Image className="w-[48px] scale-[1.3] sm:scale-[1.5] h-[48px]" src={"/logo.svg"} alt="Logo" width={48} height={48} priority/>
+        <strong className="text-[33px] font-black text-[#134E9B] leading-[100%]">Ashyo</strong>
       </Link>
       <div>
         <Button>{t("category")} <ArrowDownIcon extraClass="w-[13px] h-[17px] "/></Button>

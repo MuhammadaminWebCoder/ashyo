@@ -2,8 +2,7 @@
 import { Popover, PopoverTrigger, PopoverContent } from "@heroui/popover";
 import { ArrowDownIcon } from "@/assets/icons";
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
-import { useRouter } from "@/i18n/navigation";
+import {usePathname, useRouter } from "@/i18n/navigation";
 import { getCookie } from "cookies-next/client";
 
 const LangConfig = () => {

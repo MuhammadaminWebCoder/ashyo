@@ -9,6 +9,8 @@ export default async function RootLayout({
   params
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+
 }>) {
   const {locale} = await params;
   if (!hasLocale(routing.locales,locale)) {
@@ -17,6 +19,7 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
+        <link rel="icon" href="/logo.svg" />
         <title>ashyo</title>
       </head>
       <body>
