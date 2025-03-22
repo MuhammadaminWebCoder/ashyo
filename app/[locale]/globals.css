@@ -43,3 +43,17 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+
+@media (max-width:1139px){
+  .hidden-searchbar{
+    display: none;
+  }
+  .show-mobile{
+    display: block !important; 
+  }
+}
+@media (max-width:360px){
+  .hidden-small-mobile{
+    display: none;
+  }
+}

@@ -2,7 +2,7 @@ import { LocationIcon } from '@/assets/icons';
 import LangConfig from '@/components/LangConfig';
 import { HeaderTopNavListType } from '@/types/HeaderType';
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation'
 import React from 'react'
 
 const HeaderTop = () => {
