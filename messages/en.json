@@ -6,6 +6,7 @@
         "tashkent": "Tashkent"
     },
     "HeaderCenterContent": {
-        "category": "Category"
+        "category": "Category",
+    "inputPlaceholder":"What are you looking for?"
     }
 }

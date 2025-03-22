@@ -6,6 +6,7 @@
       "tashkent": "Toshkent"
     },
     "HeaderCenterContent": {
-      "category": "Turkum"
+      "category": "Turkum",
+      "inputPlaceholder":"Nima qidirmoqdasiz?"
     }
 }

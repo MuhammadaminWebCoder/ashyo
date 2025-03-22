@@ -1,9 +1,8 @@
-import { ArrowDownIcon, CompareIcon, SearchIcon } from "@/assets/icons";
-import Button from "@/components/Button";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
+import HeaderSearch from "./HeaderCenter/HeaderSearch";
 
 const HeaderCenter = () => {
   const t = useTranslations("HeaderCenterContent")
@@ -14,9 +13,7 @@ const HeaderCenter = () => {
         <strong className="text-[33px] font-black text-[#134E9B] leading-[100%]">Ashyo</strong>
       </Link>
       <div>
-        <Button>{t("category")} <ArrowDownIcon extraClass="w-[13px] h-[17px] "/></Button>
-        <Button extraClass='!w-[60px] !h-[48px] !p-0'><SearchIcon /></Button>
-        <Button bage={2} extraClass='!w-[50px] !h-[48px] !p-0 !bg-[#EBEFF3]'><CompareIcon /></Button>
+        <HeaderSearch/>
       </div>
     </div>
   );
