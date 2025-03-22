@@ -23,4 +23,5 @@ export interface CategoryType {
   parentCategoryId: null | number;
   subCategories: CategoryType[];
   updatedAt:string;
+  href:string;
 }
