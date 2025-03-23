@@ -10,7 +10,7 @@ const HeaderCategory = () => {
   const { data: categoryList, isLoading } = getCategory();
 
   return (
-    <div className="container flex items-center justify-between">
+    <div className="containers !px-2 flex items-center justify-between">
       {isLoading ? <HeaderCategorySkeleton/> : categoryList?.map((item: CategoryType) => (
         <Link
           className="text-[#545D6A] text-[16px]"

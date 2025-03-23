@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query"
 
 const getBanners = () => {
   const {data = [], isLoading} = useQuery({
-    queryKey:['category-all'],
+    queryKey:['banners'],
     queryFn:() => instance().get("/banners").then(res => res.data)
   })
 
