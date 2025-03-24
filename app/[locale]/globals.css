@@ -57,9 +57,9 @@
     display: none;
   }
 }
-.ant-skleton-paragraph{
+.ant-skeleton-paragraph{
   display: none !important;
 }
-.ant-skleton-title{
+.ant-skeleton-title{
   width: 100% !important;
 }
