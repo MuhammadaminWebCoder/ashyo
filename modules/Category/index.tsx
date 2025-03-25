@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import "./style.css"
-import getCategory from '@/service/getCategory'
+import getCategory from '@/services/getCategory'
 import { useTranslations } from 'next-intl'
 import { CategoryType } from '@/types/HeaderType'
 import Image from 'next/image'
@@ -14,7 +14,7 @@ const Category = () => {
     console.log(categories);
     
   return (
-    <div className='containers !py-[48px] sm:!py-[100px] category'>
+    <div className='containers !py-[48px] sm:!pt-[100px] sm:!pb-[50px] category'>
         {categories.map((item:CategoryType) => (
             <div key={item.id} className='category-item relative'>
                 {!item.image ? <Button>{item.name}</Button> : 

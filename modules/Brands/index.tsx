@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import "./style.css"
-import getBrands from '@/service/getBrands'
+import getBrands from '@/services/getBrands'
 import { BrandType } from '@/types/BrandType'
 import Image from 'next/image'
 import { IMG_API } from '@/hooks/getEnv'

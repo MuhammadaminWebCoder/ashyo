@@ -17,5 +17,22 @@
       "basket":"Save",
       "more":"More",
       "discount":"Discount products"
+    },
+    "MusicPage":{
+      "title":"You don't have to spend a lot of money to enjoy music!",
+      "basket":"in detail"
+    },
+    "footer":{
+      "networking":"",
+      "install":"",
+      "menyu":"",
+      "ashyoAbout":"",
+      "useCondition":"",
+      "privacy":"",
+      "categoryProduct":"",
+      "ourCall":"",
+      "call":"",
+      "question":"",
+      "placeholder":""
     }
   }

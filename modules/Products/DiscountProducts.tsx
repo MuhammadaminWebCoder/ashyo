@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import './styles.css';
-import getProducts from '@/service/getProducts';
+import getProducts from '@/services/getProducts';
 import { ProductType } from '@/types/ProductType';
 import ProductCard from './ProductCard';
 

@@ -7,13 +7,13 @@ import HeaderActions from './HeaderActions'
 import Button from '@/components/Button'
 import { MenuIcon } from '@/assets/icons'
 import HeaderPopamCategory from './HeaderPopamCategory'
-
+import logo from '../../../public/logo.svg'
 const HeaderCenter = () => {
     const t = useTranslations("HeaderCenterContent")
   return (
     <div className='containers relative flex items-center justify-between !py-[25px] sm:!py-[30px]'>
         <Link className='flex items-center gap-[1px]' href={"/"}>
-            <Image className='w-[48px] scale-[1.3] sm:scale-[1.5] h-[48px]' src={"/logo.svg"} alt='Logo' width={48} height={48} priority/>
+            <Image className='w-[48px] scale-[1.3] sm:scale-[1.5] h-[48px]' src={logo} alt='Logo' width={48} height={48} priority/>
             <strong className='text-[33px] sm:text-[36px] font-black text-[#134E9B] leading-[100%]'>Ashyo</strong>
         </Link>
         <HeaderSearch isMobile={true}/>

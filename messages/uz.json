@@ -17,5 +17,22 @@
     "basket":"Savatcha",
     "more":"Ko’proq",
     "discount":"Aksiyadagi tovarlar"
+  },
+  "MusicPage":{
+    "title":"Musiqa zavqini his qilish uchun ko'p mablag' sarflash shart emas!",
+    "basket":"batafsil"
+  },
+  "footer":{
+    "networking":"On our social networks",
+    "install":"Download the mobile app",
+    "menyu":"Menu",
+    "ashyoAbout":"About the product",
+    "useCondition":"Terms of use",
+    "privacy":"Privacy and security policy",
+    "categoryProduct":"Product and goods return policy",
+    "ourCall":"Contact us",
+    "call":"Contact",
+    "question":"Do you have a question?",
+    "placeholder":" Ask your questions"
   }
 }
