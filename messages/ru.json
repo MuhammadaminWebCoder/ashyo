@@ -1,16 +1,21 @@
 {
-    "HeaderTopNavList": {
-      "about-us": "О нас",
-      "products": "Продукты",
-      "contacts": "Связь",
-      "tashkent": "Ташкент"
-    },
-    "HeaderCenterContent": {
-      "category": "Категория",
+  "HeaderTopNavList": {
+      "about-us":"O нас",
+      "products":"Продукты",
+      "contacts":"Связь",
+      "tashkent":"Ташкент"
+  },
+  "HeaderCenterContent":{
+    "category":"Категория",
     "inputPlaceholder":"Что Вы ищете?"
-    },
-    "HeroContent":{
-        "more":"подробнее"
-    }
+  },
+  "HeroContent":{
+    "more":"Подробно"
+  },
+  "Products":{
+    "title":"Самый популярный продукт",
+    "basket":"Корзина",
+    "more":"Много",
+    "discount":"Товары со скидкой"
+  }
 }
-  

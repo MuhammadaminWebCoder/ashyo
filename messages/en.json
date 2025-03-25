@@ -1,15 +1,21 @@
 {
     "HeaderTopNavList": {
-        "about-us": "About us",
-        "products": "Products",
-        "contacts": "Contact",
-        "tashkent": "Tashkent"
+        "about-us":"About us",
+        "products":"Products",
+        "contacts":"Contact",
+        "tashkent":"Tashkent"
     },
-    "HeaderCenterContent": {
-        "category": "Category",
-    "inputPlaceholder":"What are you looking for?"
+    "HeaderCenterContent":{
+      "category":"Category",
+      "inputPlaceholder":"What are you looking for?"
     },
     "HeroContent":{
-        "more":"more"
+      "more":"More"
+    },
+    "Products":{
+      "title":"Most popular products",
+      "basket":"Save",
+      "more":"More",
+      "discount":"Discount products"
     }
-}
+  }

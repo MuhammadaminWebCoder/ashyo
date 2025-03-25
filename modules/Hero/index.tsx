@@ -15,7 +15,6 @@ import { useTranslations } from "next-intl";
 const Hero = () => {
     const t = useTranslations("HeroContent")
     const {data:banners} = getBanners()
-    banners.map((item:any) => console.log(item))
   return (
     <div className="py-[20px]  bg-[#F3F0F0]">
       <div className="containers">

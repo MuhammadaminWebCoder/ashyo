@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "types",
+			"path": "../../test-ashyo-n77-main/types"
+		},
+		{
+			"name": "open_ashyo",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

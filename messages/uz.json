@@ -1,15 +1,21 @@
 {
-    "HeaderTopNavList": {
-      "about-us": "Biz haqimizda",
-      "products": "Mahsulotlar",
-      "contacts": "Bog‘lanish",
-      "tashkent": "Toshkent"
-    },
-    "HeaderCenterContent": {
-      "category": "Turkum",
+  "HeaderTopNavList": {
+      "about-us":"Biz haqimizda",
+      "products":"Mahsulotlar",
+      "contacts":"Bog'lanish",
+       "tashkent":"Toshkent"
+  },
+  "HeaderCenterContent":{
+    "category":"Turkum",
       "inputPlaceholder":"Nima qidirmoqdasiz?"
-    },
-    "HeroContent":{
-        "more":"yana"
-    }
+  },
+  "HeroContent":{
+    "more":"Batafsil"
+  },
+  "Products":{
+    "title":"Eng mashxur mahsulotlar",
+    "basket":"Savatcha",
+    "more":"Ko’proq",
+    "discount":"Aksiyadagi tovarlar"
+  }
 }
