@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query"
 const getSingleProducts = (id:any) => {
   const {data = [], isLoading} = useQuery({
     queryKey:['single_products'],
-    queryFn:() => instance().get(`/products/${id}`).then(res => res.data)
+    queryFn:() => instance().get(`/product-items/${id}`).then(res => res.data)
   })
 
   return {data, isLoading}
