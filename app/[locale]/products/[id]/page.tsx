@@ -2,16 +2,20 @@
 import { CompareIcon, LikeIcon, MarketIcon, ShipIcon, WatchIcon } from '@/assets/icons'
 import Button from '@/components/Button'
 import { IMG_API } from '@/hooks/getEnv'
+import Footer from '@/modules/Footer'
+import DiscountProduct from '@/modules/Products/DiscountProducts'
 import { formatNumber } from '@/modules/Products/ProductCard'
 import getSingleProducts from '@/services/getSingleProducts'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { useParams } from 'next/navigation'
-import React from 'react'
+import React, { useState } from 'react'
 
 const page = () => {
   const {id} = useParams()
   const t = useTranslations("SingleProducts")
+    const s = useTranslations("Products")
+  const [variationActive,setVariationActive] = useState<"feature"|"options">("feature")
   
   const {data:singleData}:{data:any} = getSingleProducts(id)
   return (
@@ -47,6 +51,16 @@ const page = () => {
       </div>
 
     </div>
+    <div className='flex items-center gap-[87px] mb-[41px]'>
+    <strong onClick={() => setVariationActive("feature")} className={`${variationActive == "feature" ? "!text-[#06172d] border-[#06172d]" :"border-transparent text-[#b6babf]"} cursor-pointer border-b-[1px] text-[18px] text-[#B6BABF] font-normal`}>Telefon xususiyatlari</strong>
+    <strong onClick={() => setVariationActive("options")} className={`${variationActive == "options" ? "!text-[#06172d] border-[#06172d]" :"border-transparent text-[#b6babf]"} cursor-pointer border-b-[1px] text-[18px] text-[#B6BABF] font-normal`}>Mijozlarni fikrlari</strong>
+
+</div>
+
+
+
+    <DiscountProduct title={s("LastProduct")}/>
+      <Footer />
   </div>
 
   )
