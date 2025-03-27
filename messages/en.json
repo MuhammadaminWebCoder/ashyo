@@ -16,23 +16,34 @@
       "title":"Most popular products",
       "basket":"Save",
       "more":"More",
-      "discount":"Discount products"
+      "discount":"Discount products",
+      "LastProduct": "Recently viewed products"
     },
     "MusicPage":{
       "title":"You don't have to spend a lot of money to enjoy music!",
       "basket":"in detail"
     },
     "footer":{
-      "networking":"",
-      "install":"",
-      "menyu":"",
-      "ashyoAbout":"",
-      "useCondition":"",
-      "privacy":"",
-      "categoryProduct":"",
-      "ourCall":"",
-      "call":"",
-      "question":"",
-      "placeholder":""
-    }
+    "networking":"On our social networks",
+    "install":"Download the mobile app",
+    "menyu":"Menu",
+    "ashyoAbout":"About the product",
+    "useCondition":"Terms of use",
+    "privacy":"Privacy and security policy",
+    "categoryProduct":"Product and goods return policy",
+    "ourCall":"Contact us",
+    "call":"Contact",
+    "question":"Do you have a question?",
+    "placeholder":" Ask your questions"
+    },
+    "SingleProducts": {
+    "price": "Price",
+    "debt": "Installment payment from 456,999 uzs per month",
+    "saveContent": "Add to cart",
+    "buy": "Buy product",
+    "ship": "Delivery throughout Uzbekistan",
+    "markat": "You can pick up the product from the store",
+    "watch": "Estimated delivery time is 1 to 3 days....."
+}
+
   }

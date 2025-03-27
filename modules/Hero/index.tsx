@@ -18,20 +18,20 @@ const Hero = () => {
   return (
     <div className="py-[20px]  bg-[#F3F0F0]">
       <div className="containers">
-        <Swiper autoplay={{delay:2500, disableOnInteraction:false}} loop={true} pagination={true} modules={[Autoplay,Pagination]} className="mySwiper">
+        <Swiper autoplay={{delay:2500, disableOnInteraction:false}} loop={true} pagination={true} modules={[Autoplay,Pagination]} className="mySwiper !pt-[37px] sm:!py-[50px]">
             {banners.map((item:any) => (
                 <SwiperSlide key={item.id}>
-                <div className='w-[596px] text-start'>
-                  <h2 className='font-black text-[44px] text-[#0A1729] mb-[6px]'>
+                <div className='w-[596px] text-center sm:text-start'>
+                  <h2 className='font-black text-[22px] sm:text-[44px] text-[#0A1729] mb-[6px]'>
                     {item.name}
                   </h2>
-                  <p className='text-[16px] text-[#545D6A] mb-[22px]'>
+                  <p className='text-[12px] sm:text-[16px] text-[#545D6A] mb-[22px]'>
                     {item.description}
                   </p>
-                  <Button>{t("more")}</Button>
+                  <Button extraClass='mx-auto sm:mx-0 w-[30%]'>{t("more")}</Button>
                 </div>
                 <Image 
-                  className='w-[455px]' 
+                  className='hidden lg:block max-w-[455px] h-[350px] object-contain absolute lg:static bottom-0 right-0' 
                   src={`${IMG_API}/${item.image}`} 
                   alt='Banner img' 
                   width={755} 

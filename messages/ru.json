@@ -16,7 +16,8 @@
     "title":"Самый популярный продукт",
     "basket":"Корзина",
     "more":"Много",
-    "discount":"Товары со скидкой"
+    "discount":"Товары со скидкой",
+    "LastProduct": "Недавно просмотренные продукты"
   },
   "MusicPage":{
     "title":"Вам не обязательно тратить много денег, чтобы наслаждаться музыкой!",
@@ -34,5 +35,15 @@
     "call":"Контакт",
     "question":"У вас есть вопрос?",
     "placeholder":"Задавайте вопросы, которые вас интересуют"
+},
+"SingleProducts": {
+    "price": "Price",
+    "debt": "Installment payment from 456,999 uzs per month",
+    "saveContent": "Add to cart",
+    "buy": "Buy product",
+    "ship": "Delivery throughout Uzbekistan",
+    "markat": "You can pick up the product from the store",
+    "watch": "Estimated delivery time is 1 to 3 days....."
 }
+
 }

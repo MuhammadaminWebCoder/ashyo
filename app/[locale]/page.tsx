@@ -19,7 +19,7 @@ export default function Home() {
         <Category/>
         <DiscountProduct title={t("discount")}/>
         <MusicPage/>
-        <DiscountProduct title={t("discount")}/>
+        <DiscountProduct title={t("LastProduct")}/>
         <Footer />
     </>
   );
